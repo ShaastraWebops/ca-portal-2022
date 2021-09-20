@@ -1,0 +1,44 @@
+.Body {
+  margin-top: 250px;
+  text-align: center;
+}
+#myInput {
+  background-image: url(./assests/search_icon.png);
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 80%;
+  border: 1px solid #ddd;
+  background-color: #bfe6ff;
+  font-size: 18px;
+  margin: auto;
+}
+
+#myTable th {
+  text-align: left;
+  padding: 12px;
+  width: 40px;
+  background-color: #009dff;
+}
+#myTable td {
+  text-align: left;
+  padding: 12px;
+  width: 40px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+  background-color: #f1f1f1;
+}
