@@ -12,12 +12,6 @@ function App() {
         placeholder="Search for CA.."
       />
       <table id="myTable">
-        <tr className="header">
-          <th>Name</th>
-          <th>Registration Number</th>
-          <th>Email ID</th>
-          <th>College Name</th>
-        </tr>
         <tr>
           <td>dev</td>
           <td>88888888</td>

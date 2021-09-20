@@ -1,0 +1,77 @@
+.Body {
+  margin-top: 250px;
+  text-align: center;
+}
+.Application {
+  margin-bottom: 200px;
+}
+img {
+  display: flex;
+  margin-left: 700px;
+  margin-bottom: 50px;
+}
+.flexdis {
+  display: flex;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+h3 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h2 {
+  margin-left: 100px;
+}
+.details {
+  margin-left: 150px;
+}
+.ul11 {
+  list-style-type: none;
+  margin-right: 400px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin-bottom: 40px;
+}
+.column {
+  display: flex;
+  margin-left: 80px;
+}
+.questionarise {
+  margin-left: 80px;
+  text-align: left;
+}
+.questions {
+  margin-left: 80px;
+  width: 60%;
+}
+select {
+  margin-top: 40px;
+  width: 1212px;
+  background-color: #a5a0ff;
+  height: 40px;
+}
+.submit {
+  margin-top: 50px;
+  margin-left: 80px;
+  font-weight: bold;
+  width: 120px;
+  height: 30px;
+  background-color: green;
+  border-radius: 2px;
+  margin-right: 200px;
+  color: white;
+}
+.decline {
+  width: 120px;
+  height: 30px;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 2px;
+  color: white;
+}

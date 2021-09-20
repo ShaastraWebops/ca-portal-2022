@@ -5,6 +5,7 @@
 #myInput {
   background-image: url(./assests/search_icon.png);
   background-position: 10px 12px;
+  background-color: #efefef;
   background-repeat: no-repeat;
   width: 80%;
   font-size: 16px;
@@ -26,7 +27,6 @@
   text-align: left;
   padding: 12px;
   width: 40px;
-  background-color: #009dff;
 }
 #myTable td {
   text-align: left;
@@ -34,11 +34,13 @@
   width: 40px;
 }
 
-#myTable tr {
-  border-bottom: 1px solid #ddd;
+tr {
+  background-color: #c2bfff;
 }
 
-#myTable tr.header,
+tr:nth-child(even) {
+  background-color: #a5a0ff;
+}
 #myTable tr:hover {
   background-color: #f1f1f1;
 }
