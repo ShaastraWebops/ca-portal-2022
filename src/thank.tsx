@@ -1,7 +1,7 @@
 import React from 'react';
-import "./Body1.css"
+import "./thank.css"
 
-const Body1 = () => {
+const thank = () => {
     return (
         
         <div className="Bodyt" >
@@ -15,4 +15,4 @@ const Body1 = () => {
     )
 }
 
-export default Body1
+export default thank

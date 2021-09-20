@@ -11,8 +11,9 @@ import { ApolloProvider } from "@apollo/client";
 import client from "./graphql";
 import Logout from "./logout";
 import AuthContext from "./utils/context";
-import Body1 from "./Body1";
-import { Rejected, Selected } from "./Body2";
+import thank from "./thank";
+import { Rejected, Selected } from "./Selected";
+
 
 const App = () => {
   const { role } = useContext(AuthContext);
@@ -22,9 +23,10 @@ const App = () => {
         <Router>
           <Route exact path="/" component={Home} />
           <Route exact path="/login" component={Login} />
+         
           <Route exact path="/profile" component={Profile} />
           {role === "REGISTERED" && (
-            <Route exact path="/me" component={Body1} />
+            <Route exact path="/me" component={thank} />
           )}
           {role === "SELECTED" && <Route exact path="/me" component={Selected} />}
           {role === "REJECTED" && <Route exact path="/me" component={Rejected} />}

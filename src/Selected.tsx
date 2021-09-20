@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Body1.css"
+import "./thank.css"
 
 const Selected = () => {
     return (
