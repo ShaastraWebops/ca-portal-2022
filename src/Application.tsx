@@ -13,7 +13,7 @@ function Application() {
             <h2 className="details">EMAIL@gmail.com</h2>
           </div>
           <div>
-            <img src={images1} alt="" />
+            <img className="photo" src={images1} alt="" />
           </div>
         </div>
         <div className="column">
