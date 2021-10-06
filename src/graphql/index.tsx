@@ -2,7 +2,7 @@ import { ApolloClient, from, HttpLink, InMemoryCache } from "@apollo/client";
 import { onError } from "@apollo/client/link/error";
 
 const link = new HttpLink({
-  uri: "http://localhost:8000/graphql",
+  uri: "https://api.ca.shaastra.org/graphql",
   credentials: "include",
 });
 
