@@ -65,7 +65,7 @@ const App = () => {
           )}
           {(role === 'SELECTED' ||
             role === 'REGISTERED' ||
-            role === 'REJECTED') && (
+            role === 'ADMIN') && (
             <Switch>
               <Route exact path='/' component={Home} />
               <Route exact path='/profile' component={Profile} />
@@ -77,9 +77,6 @@ const App = () => {
               )}
               {role === 'SELECTED' && (
                 <Route exact path='/task' component={Task}></Route>
-              )}
-              {role === 'REJECTED' && (
-                <Route exact path='/me' component={Rejected} />
               )}
               <Route exact path='/questionaire' component={Questionaire} />
               <Route exact path='/leaderboard' component={LeaderBoard} />
@@ -99,10 +96,10 @@ const App = () => {
                 <Redirect to='/' />
               </Route>
               <Route exact path='/admintask' component={AdminTasks}></Route>
-              <Route exact path='/marktask' component={MarkTasks}></Route>
               <Route exact path="/edittask/:id" component={EditTask}></Route>
             </Switch>
           )}
+          <Route exact path='/marktask' component={MarkTasks}></Route>
         </Router>
       </div>
     </ApolloProvider>
