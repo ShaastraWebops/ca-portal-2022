@@ -259,7 +259,7 @@ function Login(props: Props) {
             </>
           ) : (
             <>
-              {/*<h1>REGISTER</h1>
+              <h1>REGISTER</h1>
               <input
                 required
                 type='text'
@@ -308,21 +308,8 @@ function Login(props: Props) {
               <p>
                 Didn't recieved verification Link ?{' '}
                 <Link to='/resendverification'>Resend</Link>
-              </p>*/}
-              <div className='register-ctn'>
-              <h3 className="headingText">REGISTRATIONS CLOSED</h3>
-              <p className='contentText'>We are sorry to inform you that we have closed registrations for this year. 
-              Thank you for showing interest in the Campus Ambassador Program, 
-              and we will be looking forward to your application next year.</p>
-               <p>
-                Already have an account ?{' '}
-                <span onClick={() => setLogin(true)}>Login</span>
               </p>
-              <p>
-                Didn't recieved verification Link ?{' '}
-                <Link to='/resendverification'>Resend</Link>
-              </p>
-              </div>
+             
             </>
           )}
         </form>
